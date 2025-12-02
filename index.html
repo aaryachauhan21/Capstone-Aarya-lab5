@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CasaVista | Premium Real Estate</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Casa Vista</div>
+        
+        <input type="checkbox" id="nav-toggle" class="nav-checkbox">
+        <label for="nav-toggle" class="menu-label">&#9776;</label>
+
+        <nav class="nav-links">
+            <a href="#properties">Properties</a>
+            <a href="#agents">Agents</a>
+            <a href="#why">Services</a>
+            <a href="#blog">News</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Luxury at every corner</h1>
+            <p>Exclusive properties across India.</p>
+            <a href="#properties" class="btn-cta">Explore Listings</a>
+        </div>
+    </section>
+
+    <div class="search-container">
+        <form class="search-bar" autocomplete="off">
+            <input type="text" placeholder="Location">
+            <select>
+                <option>Price Range</option>
+                <option>Under ₹1 Cr</option>
+                <option>₹1 Cr - ₹5 Cr</option>
+                <option>₹5 Cr+</option>
+            </select>
+            <select>
+                <option>Property Type</option>
+                <option>Villa</option>
+                <option>Apartment</option>
+                <option>Penthouse</option>
+            </select>
+            <button type="submit">Find Home</button>
+        </form>
+    </div>
+
+    <section class="section" id="properties">
+        <div class="section-title">Latest Listings</div>
+        <div class="property-grid">
+            <div class="property-card">
+                <div class="card-img-wrapper">
+                    <img src="images/villa.jpg" alt="Modern House">
+                </div>
+                <div class="property-card-body">
+                    <div class="property-price">₹12.50 Cr</div>
+                    <div class="property-title">Bandra Sea View Villa</div>
+                    <div class="property-features">
+                        <span>4 Beds</span>
+                        <span>3 Baths</span>
+                        <span>3,500 sqft</span>
+                    </div>
+                    <div class="location">Bandra West, Mumbai</div>
+                </div>
+            </div>
+
+            <div class="property-card">
+                <div class="card-img-wrapper">
+                    <img src="images/bungalow.jpg" alt="Luxury Villa">
+                </div>
+                <div class="property-card-body">
+                    <div class="property-price">₹18.75 Cr</div>
+                    <div class="property-title">Lutyens' Bungalow</div>
+                    <div class="property-features">
+                        <span>6 Beds</span>
+                        <span>6 Baths</span>
+                        <span>6,000 sqft</span>
+                    </div>
+                    <div class="location">Lutyens' Delhi</div>
+                </div>
+            </div>
+
+            <div class="property-card">
+                <div class="card-img-wrapper">
+                    <img src="images/penthouse.jpg" alt="Townhouse">
+                </div>
+                <div class="property-card-body">
+                    <div class="property-price">₹4.50 Cr</div>
+                    <div class="property-title">Koramangala Penthouse</div>
+                    <div class="property-features">
+                        <span>3 Beds</span>
+                        <span>3 Baths</span>
+                        <span>2,200 sqft</span>
+                    </div>
+                    <div class="location">Koramangala, Bangalore</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-title">Featured Property</div>
+        <div class="property-detail">
+            <div class="property-detail-img">
+                <img src="images/retreat.webp" alt="Detail View">
+            </div>
+            <div class="property-detail-info">
+                <h2>The Aravali Retreat</h2>
+                <p>Experience the ultimate in luxury living near the Aravali hills. This architectural masterpiece features floor-to-ceiling windows, a private pool, and smart home integration. The dark matte finishes contrasted with gold accents create a bold statement of elegance.</p>
+                <div class="property-features" style="border:none; padding:0; margin-bottom: 2rem;">
+                    <span style="color:var(--primary); font-weight:bold;">5 Beds</span>
+                    <span style="color:var(--primary); font-weight:bold;">6 Baths</span>
+                    <span style="color:var(--primary); font-weight:bold;">8,000 sqft</span>
+                </div>
+                <div class="property-price">₹28.00 Cr</div>
+                <a href="#" class="btn-cta" style="margin-top: 1.5rem; text-align:center;">Schedule Viewing</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="stats-strip">
+        <div class="stat">
+            <span class="number">1,200+</span>
+            <span class="label">Sold</span>
+        </div>
+        <div class="stat">
+            <span class="number">420</span>
+            <span class="label">Happy Clients</span>
+        </div>
+        <div class="stat">
+            <span class="number">15</span>
+            <span class="label">Years</span>
+        </div>
+            <div class="stat">
+            <span class="number">30</span>
+            <span class="label">Expert Agents</span>
+        </div>
+        <div class="stat">
+            <span class="number">100%</span>
+            <span class="label">Passion</span>
+        </div>
+    </div>
+
+    <section class="section" id="agents">
+        <div class="section-title">Elite Agents</div>
+        <div class="agents-grid">
+            <div class="agent-card">
+                <img src="images/agent1.jpg" alt="Agent">
+                <h4>Vikram Malhotra</h4>
+                <span>Senior Broker</span>
+            </div>
+            <div class="agent-card">
+                <img src="images/agent2.jpg" alt="Agent">
+                <h4>Priya Sharma</h4>
+                <span>Luxury Specialist</span>
+            </div>
+            <div class="agent-card">
+                <img src="images/agent3.jpg" alt="Agent">
+                <h4>Arjun Das</h4>
+                <span>Investment Expert</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="why">
+        <div class="section-title">Why DreamHome</div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">&#9733;</div>
+                <h5>Premium Listings</h5>
+                <p style="color: #aaa;">Access to exclusive off-market properties.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">&#128337;</div>
+                <h5>24/7 Concierge</h5>
+                <p style="color: #aaa;">Dedicated support for your real estate journey.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">&#128200;</div>
+                <h5>Market Analysis</h5>
+                <p style="color: #aaa;">Data-driven insights to maximize investment.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">&#128176;</div>
+                <h5>Best Value</h5>
+                <p style="color: #aaa;">Negotiating the best deals for our clients.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="blog">
+        <div class="newsletter">
+            <h3>Join The Inner Circle</h3>
+            <p style="color: #ccc;">Get market updates and exclusive listings.</p>
+            <form>
+                <input type="email" placeholder="Your email address" required id="email" >
+                <button type="submit" style="background:var(--primary); border:none; padding: 0.8rem 2rem; font-weight:700; cursor:pointer;">SUBSCRIBE</button>
+            </form>
+        </div>
+    </section>
+    <section class="contact-form-section" id="contact">
+        <h3 style="color:var(--primary); text-align:center; margin-bottom:1.5rem; font-size:1.8rem;">Contact Us</h3>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required id="message"></textarea>
+            <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>DreamHome</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Discover</h4>
+                <ul>
+                    <li><a href="#properties">Properties</a></li>
+                    <li><a href="#agents">Agents</a></li>
+                    <li><a href="#why">Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Kr Mangalam, Sohna</li>
+                    <li>queries@casavista.in</li>
+                    <li>+91 98765 43210</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Social</h4>
+                <ul>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 Casa Vista Real Estate. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
